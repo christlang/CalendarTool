@@ -1,0 +1,25 @@
+{
+  "name": "calendar-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-ts",
+    "start": "ts-node index.ts"
+  },
+  "author": "cl",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine-node": "^3.0.0",
+    "node-js": "^1.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.6.9",
+    "@types/jsdom": "^16.2.11",
+    "jasmine": "^3.7.0",
+    "jasmine-ts": "^0.3.0",
+    "ts-node": "^9.1.1"
+  }
+}
